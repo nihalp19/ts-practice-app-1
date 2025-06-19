@@ -1,6 +1,7 @@
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input"
 import { SendHorizontal } from 'lucide-react';
+import FirstPage from "./FirstPage";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Button className="rounded-none  ml-4 bg-black text-white hover:scale-105 transition-transform duration-200">
             <SendHorizontal />
           </Button>
+          <FirstPage />
         </div>
       </div>
 
